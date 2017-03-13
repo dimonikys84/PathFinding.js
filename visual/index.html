@@ -30,7 +30,7 @@
   <body>
     <div id="draw_area"></div>
 
-    <div id="instructions_panel" class="panel">
+    <div id="instructions_panel" class="panel" style="display: none;">
       <header>
         <h2 class="header_title">Instructions</h2>
         <span id="hide_instructions">hide</span>
@@ -42,7 +42,7 @@
       Click Start Search in the lower-right corner to start the animation.
     </div>
 
-    <div id="algorithm_panel" class="panel right_panel">
+    <div id="algorithm_panel" class="panel right_panel" style="display: none;">
       <header><h2 class="header_title">Select Algorithm</h2></header>
 
       <div class="accordion">
@@ -220,9 +220,9 @@
     </div><!-- #algorithm_panel -->
 
     <div id="play_panel" class="panel right_panel">
-      <button id="button1" class="control_button">Start Search</button>
-      <button id="button2" class="control_button">Pause Search</button>
-      <button id="button3" class="control_button">Clear Walls</button>
+      <button id="button1" class="control_button">Начать поиск</button>
+      <button id="button2" class="control_button">Остановить поиск</button>
+      <button id="button3" class="control_button">Очистить</button>
     </div>
 
     <div id="stats"></div>
